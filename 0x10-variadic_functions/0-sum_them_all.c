@@ -41,7 +41,7 @@ int sum_them_all(const unsigned int n, ...)
     /*ending argument list traversal*/
     va_end(ptr);
 
-    return sum;
+    return (sum);
 
 }
 
