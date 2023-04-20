@@ -1,4 +1,4 @@
-# include <stdio.h>
+# include "variadic_functions.h"
 # include <stdarg.h>
 
 /*function that returns the sum of all its parameters*/
@@ -21,9 +21,3 @@ int sum_them_all(const unsigned int n, ...)
 
 }
 
-int main()
-{
-
-    printf("\n the sum of the all the parameters is %d",sum_them_all(4,6,7,7,9));
-    return 0;
-}
