@@ -3,7 +3,7 @@
 /**
  * _strlen_recursion - function to return the length of a string.
  * _putchar - writes the character c to stdout.
- * s - string to be passed to the _puts_recursion function.
+ * @s:string to be passed to the _puts_recursion function.
  *
  */
 int _strlen_recursion(char *s)
