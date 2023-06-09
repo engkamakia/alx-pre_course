@@ -5,7 +5,7 @@
  *
  *_putchar - writes the character c to stdout
  *
- *@s - string to be passed to the _puts_recursion function
+ *@s:string to be passed to the _puts_recursion function
  */
 void _puts_recursion(char *s)
 {
