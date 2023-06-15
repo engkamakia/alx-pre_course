@@ -18,7 +18,7 @@ printf("error\n");
 return (1);
 }
 else
-{
+
 x = atoi(argv[1]);
 y = atoi(argv[2]);
 mul = x *y;
