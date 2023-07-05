@@ -12,7 +12,7 @@ int pop_listint(listint_t **head)
 listint_t *current_node = *head;
 int node_data;
 
-if (*head)
+if (*head != NULL)
 return (0);
 node_data = (*head)->n;
 current_node = (*head)->next;
